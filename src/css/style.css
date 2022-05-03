@@ -1,0 +1,53 @@
+body{
+    background: darkgray url("https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f333.png");
+}
+
+span.es-rojo {
+    color: red;
+    font-size: x-large;
+}
+
+span.linea:hover{
+    font-weight: bold;
+    color: blue;
+}
+p::first-letter{
+    font-size: 50px;
+}
+
+h1:hover ~ p{
+    color: brown;
+}
+
+p#letraChida{
+    font-family: 'Ms Madi', cursive;
+}
+
+p #capital {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+hr {
+    color: red;    
+}
+
+p small.linea{
+    font-style: italic;
+}
+
+.es-azul{
+    color: blue;
+}
+
+.principal{
+    font-size: 10px;
+}
+
+ul.principal{
+    color:red;
+}
+
+ol li {
+    color:green;
+}
+
